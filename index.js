@@ -19,8 +19,31 @@
 
 
 // ================Objects================
-// 
+// entries       // Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
+// keys          // Returns an array containing the names of all of the given object's own enumerable string properties.
+// values        // Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
 
 
 // ================Strings================
-// split
+// split          // to split string into array of substrings and returns a new array.
+// charAt         // returns the character at a specified index of a string
+// charCodeAt     // returns the uni code of the character at the specified index in the string
+// fromCharCode   // opposite of charcodeAt
+// concat         // join two or more strings and returns a new string
+// includes       // determines whether a string contains a specified character , returns T/F
+// indexOf        // returns the position of the first occurance of the specific character in string starting from the beginning of the string, else returns -1
+// lastIndexOf    // returns the position of the first occurance of the specific character in string starting from the end to the beginning of the string, else returns -1
+// match          // searches a string for a match against a regex and returns the match as an array
+// repeat         // returns a new string with a specified number of copies of the string that was called on
+// replace        // searches a string for a specified value or regex and returns a new string 
+// search         // searches a string for a specified value or regex and returns the position of the match, else returns -1
+// slice          // extracts part of the string and returns the extracted part in a new string, exclusive (not including the end index)
+// startsWith     // determines if a string begins with a character of a specified string, returns T/F
+// endsWith       // determines if a string ends with a character of a specified string, returns T/F
+// substr         // extracts parts of a string beginning at the character of specified position and returns the specified number of characters
+// substring      // extracts a character from the string between two specified indexes and returns the new substring, exclusive (not including the end index)
+// toLowerCase    // convert to lowercase letters but does not change the original string
+// toUpperCase    // convert to uppercase letters but does not change the original string
+// trim           // removes white spaces from both ends of the string, does not change the original string
+
+
