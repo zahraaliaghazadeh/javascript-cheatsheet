@@ -5,15 +5,17 @@
 
 <!-- omit in toc -->
 ## Table of Contents
-- [Arrays](#arrays)
-- [Objects](#objects)
-- [Strings](#strings)
+- [Methods](#methods)
+  - [Arrays](#arrays)
+  - [Objects](#objects)
+  - [Strings](#strings)
 - [Learning Resources](#learning-resources)
   - [More Helpful Resources](#more-helpful-resources)
 - [Credits](#credits)
 - [Contributors](#contributors)
 
-## Arrays
+## Methods
+### Arrays
 * slice - Extracts a section of an array and returns a new array.
 * splice - Adds and/or removes elements from an array.
 * find - Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
@@ -29,12 +31,12 @@
 * includes - Determines whether an array contains a certain element, returning true or false as appropriate.
 * lastIndexOf - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
  
-## Objects
+### Objects
 * entries - Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
 * keys - Returns an array containing the names of all of the given object's own enumerable string properties.
 * values - Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
 
-## Strings
+### Strings
 * split - to split string into array of substrings and returns a new array.
 * charAt - returns the character at a specified index of a string
 * charCodeAt - returns the uni code of the character at the specified index in the string
