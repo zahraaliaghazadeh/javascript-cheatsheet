@@ -13,7 +13,7 @@
 // indexOf       // Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
 // includes      // Determines whether an array contains a certain element, returning true or false as appropriate.
 // lastIndexOf   // Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
-// 
+
 
 
 
@@ -47,3 +47,7 @@
 // trim           // removes white spaces from both ends of the string, does not change the original string
 
 
+
+
+// ===============Numbers================
+// toFixed(n)     // it will limit the number of decimals to be rounded to n

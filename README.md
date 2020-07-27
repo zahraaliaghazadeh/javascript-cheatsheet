@@ -69,6 +69,10 @@
 <br>// toUpperCase    // convert to uppercase letters but does not change the original string
 <br>// trim           // removes white spaces from both ends of the string, does not change the original string
 
+<br>
+// ===============Numbers================
+<br>
+// toFixed(n)     // it will limit the number of decimals to be rounded to n
 
 
 
