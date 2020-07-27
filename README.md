@@ -9,6 +9,8 @@
   - [Arrays](#arrays)
   - [Objects](#objects)
   - [Strings](#strings)
+  - [Numbers](#numbers)
+
 - [Learning Resources](#learning-resources)
   - [More Helpful Resources](#more-helpful-resources)
 - [Credits](#credits)
@@ -58,10 +60,9 @@
 * toUpperCase - convert to uppercase letters but does not change the original string
 * trim - removes white spaces from both ends of the string, does not change the original string
 
-<br>
-// ===============Numbers================
-<br>
-// toFixed(n)     // it will limit the number of decimals to be rounded to n
+
+### Numbers
+* toFixed(n) - it will limit the number of decimals to be rounded to n
 
 
 
