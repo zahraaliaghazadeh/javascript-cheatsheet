@@ -62,7 +62,8 @@
 
 
 ### Numbers
-* toFixed(n) - it will limit the number of decimals to be rounded to n
+* toFixed(n) - it will limit the number of decimals to be rounded to n , returns string
+* isNan()    - it will check the type to see if it is not number
 
 
 
