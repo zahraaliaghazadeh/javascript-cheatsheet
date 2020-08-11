@@ -32,6 +32,7 @@
 * indexOf - Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
 * includes - Determines whether an array contains a certain element, returning true or false as appropriate.
 * lastIndexOf - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
+* every - Checks if all elements pass a test
  
 ### Objects
 * entries - Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
