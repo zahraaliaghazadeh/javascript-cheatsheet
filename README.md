@@ -18,26 +18,33 @@
 
 ## Methods
 ### Arrays
-* slice - Extracts a section of an array and returns a new array.
-* splice - Adds and/or removes elements from an array.
+* slice - O(N) Extracts a section of an array and returns a new array.
+* splice - O(N) Adds and/or removes elements from an array.
 * find - Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found.
-* concat - Returns a new array comprised of this array joined with other array(s) and/or value(s).
+* concat - O(N) Returns a new array comprised of this array joined with other array(s) and/or value(s).
 * join - Joins all elements of an array into a string.
-* filter - Creates a new array with all of the elements of this array for which the provided filtering function returns true.
-* map - Creates a new array with the results of calling a provided function on every element in this array.
-* reduce - Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
+* filter - O(N) Creates a new array with all of the elements of this array for which the provided filtering function returns true.
+* map - O(N) Creates a new array with the results of calling a provided function on every element in this array.
+* reduce - O(N) Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
 * reverse - Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first.
-* sort - Sorts the elements of an array in place and returns the array.
-* push - Adds one or more elements to the end of an array and returns the new length of the array.
+* sort - O( N * logN) Sorts the elements of an array in place and returns the array.
+* push - O(1) Adds one or more elements to the end of an array and returns the new length of the array.
 * indexOf - Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
 * includes - Determines whether an array contains a certain element, returning true or false as appropriate.
 * lastIndexOf - Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.
 * every - Checks if all elements pass a test
+* pop - O(1) It removes the last element of the array and returns it
+* shift - O(N) It removes the first element of an array and returns it
+* unshift - O(N) It adds to the beginning of an array and returns the new length
+* forEach - O(N) It calls a function once for each element
  
 ### Objects
-* entries - Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
-* keys - Returns an array containing the names of all of the given object's own enumerable string properties.
-* values - Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
+* entries - O(N) Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
+* keys - O(N) Returns an array containing the names of all of the given object's own enumerable string properties.
+* values - O(N) Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
+* object.assing - to make copy of obj
+* spread operator - to make copy of obj
+* hasOwnProperty - O(1) returns a boolean if the object has a property as its own 
 
 ### Strings
 * split - to split string into array of substrings and returns a new array.
