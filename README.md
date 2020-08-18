@@ -37,7 +37,8 @@
 * shift - O(N) It removes the first element of an array and returns it
 * unshift - O(N) It adds to the beginning of an array and returns the new length
 * forEach - O(N) It calls a function once for each element
- 
+* isArray - Checks to see if array, will return true
+
 ### Objects
 * entries - O(N) Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
 * keys - O(N) Returns an array containing the names of all of the given object's own enumerable string properties.
@@ -73,7 +74,9 @@
 * toFixed(n) - it will limit the number of decimals to be rounded to n , returns string
 * isNan()    - it will check the type to see if it is not number
 
-
+### Date
+* Date.parse -  parses a date string and returns a number of milliseconds between the date and midnight 01/01/1970s
+* new Date() - instentiate , create a new date object
 
 
 ## Learning Resources
