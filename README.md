@@ -73,6 +73,12 @@
 ### Numbers
 * toFixed(n) - it will limit the number of decimals to be rounded to n , returns string
 * isNan()    - it will check the type to see if it is not number
+* isInteger() - It will return true if number is integer
+* Math.log2() - calculates the log base 2
+* Math.floor() - rounds down
+* Math.ceil() - rounds up
+* Math.round() - rounds to the nearest integer
+
 
 ### Date
 * Date.parse -  parses a date string and returns a number of milliseconds between the date and midnight 01/01/1970s
