@@ -78,6 +78,7 @@
 * Math.floor() - rounds down
 * Math.ceil() - rounds up
 * Math.round() - rounds to the nearest integer
+* toString(2) - converts to binary with base 2
 
 
 ### Date
