@@ -74,6 +74,8 @@
 * toFixed(n) - it will limit the number of decimals to be rounded to n , returns string
 * isNan()    - it will check the type to see if it is not number
 * isInteger() - It will return true if number is integer
+Number.isInteger(5.000000000000001); // false
+Number.isInteger(5.0000000000000001); // true 
 * Math.log2() - calculates the log base 2
 * Math.floor() - rounds down
 * Math.ceil() - rounds up
