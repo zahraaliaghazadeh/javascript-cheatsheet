@@ -10,6 +10,7 @@
   - [Objects](#objects)
   - [Strings](#strings)
   - [Numbers](#numbers)
+  - [Date](#date)
 
 - [Learning Resources](#learning-resources)
   - [More Helpful Resources](#more-helpful-resources)
@@ -44,7 +45,7 @@
 * entries - O(N) Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
 * keys - O(N) Returns an array containing the names of all of the given object's own enumerable string properties.
 * values - O(N) Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
-* object.assing - to make copy of obj
+* Object.assign - to make copy of obj
 * spread operator - to make copy of obj
 * hasOwnProperty - O(1) returns a boolean if the object has a property as its own 
 
